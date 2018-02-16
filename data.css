@@ -1,0 +1,68 @@
+#nav-title {
+    background-color: rgb(11, 156, 149);
+    color: white;
+    margin-left: 50px;
+}
+.main-viz {
+    padding-bottom: 20px;
+    margin: auto;
+}
+.main-content {
+    padding: 30px;
+    padding-top: 0px;
+}
+.navbar {
+    padding: 10px;
+    background: #fff;
+    padding-bottom: 10px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}  
+.navbar-toggle {
+    background-color: #0dd8ee; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background: #fff;
+  }
+  /* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}  
+body {
+    background-color: rgb(211, 211, 211);
+  }
+div {
+/*  padding-top: 50px;
+  padding-bottom: 50px; */
+  padding-right: 30px;
+  padding-left: 80px;
+  background-color: white;
+}
+.main {
+    margin-top: 90px; /* Add a top margin to avoid content overlay */
+}
+@media only screen and (max-width: 401px) {
+    #landing-img {
+        max-width: 100%;
+    }
+    .side-bar-img {
+        float: left;
+        max-height: 45%;
+        max-width: 45%;
+        margin: 2px;
+    }
+}

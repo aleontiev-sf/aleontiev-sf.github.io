@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather Dashboard</title>
+  <title>Humidity Visualization</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main_page.css">
@@ -37,15 +37,14 @@
   <br>
   <div class="container">
     <div class="row">
-      <div class="col-sm-4 col-md-8">
-        <h2 style="color:rgb(11, 156, 149)">Humidity vs. Latitude</h2>
+      <div class="col-sm-8 col-md-6">
+        <h3 style="color:rgb(11, 156, 149)">Humidity vs. Latitude</h3>
         <p><img src="HumidityInWorldCities.png" alt="Map of humidity vs. latitude" />
         <p>
           The graph above visualizes humidity on a given date as
           a function of latitude. There does not appear to be a strong correlation
           between humidity and latitude.
         </p>
-        <br>
         <p> More interestingly, humidity in the southern hemispher (negative latitude) 
             appears to be higher than the northern hemisphere (positive latitude).
             This is due to the fact that the seasons are the opposite of each other 
@@ -55,25 +54,20 @@
             This pattern will likely reverse in about six months (in late May).
         </p>
       </div>
-      <div class="col-sm-2 col-md-4">
-        <h2 style="color:rgb(11, 156, 149)">Visualizations</h2>
-        <p>
+      <div class="col-sm-4 col-md-6">
+        <h3 style="color:rgb(11, 156, 149)">Visualizations</h3>
           <img src="TemperatureInWorldCities.png" 
-              style="float: left; width: 35%; margin-right: 1%; margin-bottom: 0.5em;" 
+              style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;" 
               alt="Map of temperature vs. latitude" />
             <img src="HumidityInWorldCities.png"
-              style="float: right; width: 35%; margin-right: 1%; margin-bottom: 0.5em;"
+              style="float: right; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"
               alt="Map of humidity vs. latitude" />
-        </p>
-        <br>
-        <p>
           <img src="CloudinessInWorldCities.png"
-              style="float: left; width: 35%; margin-right: 1%; margin-bottom: 0.5em;"
+              style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"
               alt="Map of cloudiness vs. latitude" />
           <img src="WindSpeedInWorldCities.png"
-              style="float: right; width: 35%; margin-right: 1%; margin-bottom: 0.5em;"
+              style="float: right; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"
               alt="Map of wind speed vs. latitude" />
-        </p>
       </div>
     </div>
   </div>
